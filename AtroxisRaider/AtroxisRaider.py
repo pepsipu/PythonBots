@@ -42,6 +42,7 @@ if exists:
 else:
     print("You need to login into PlatinBots!")
     PlatinAuth().createLogin()
+    readAuth()
 
 
 
